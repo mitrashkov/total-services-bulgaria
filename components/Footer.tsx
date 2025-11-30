@@ -73,16 +73,17 @@ const Footer: React.FC = () => {
         <div className="mt-20 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500 uppercase tracking-widest font-bold">
           <p>&copy; {new Date().getFullYear()} Total Services Bulgaria EOOD.</p>
 <a
-  href="mailto:contact.mitrashkov@gmail.com"
-  className="group flex items-center gap-2 px-3 py-1 rounded-sm border border-white/5 bg-white/5 hover:border-garant-accent/30 hover:bg-white/10 transition-all duration-300 cursor-pointer"
+  href="https://mitrashkov.com"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="group flex items-center gap-2 px-3 py-1 rounded-sm border border-white/5 bg-white/5 hover:border-garant-accent/30 hover:bg-white/10 transition-all duration-300"
   title="Свържете се с разработчика"
-  onClick={(e) => {
-    e.preventDefault();
-    setTimeout(() => {
-      window.location.href = "mailto:contact.mitrashkov@gmail.com";
-    }, 0);
-  }}
 >
+  <span className="w-1.5 h-1.5 rounded-full bg-gray-700 group-hover:bg-garant-accent transition-colors duration-300"></span>
+  <span className="text-[10px] text-gray-500 group-hover:text-gray-300 transition-colors duration-300">
+    Dev by Radoslav Mitrashkov
+  </span>
+</a>
   <span className="w-1.5 h-1.5 rounded-full bg-gray-700 group-hover:bg-garant-accent transition-colors"></span>
   <span className="text-[10px] text-gray-500 group-hover:text-gray-300">
     Dev by Radoslav Mitrashkov
