@@ -77,7 +77,6 @@ const Footer: React.FC = () => {
               <span className="w-1.5 h-1.5 rounded-full bg-gray-700 group-hover:bg-garant-accent transition-colors"></span>
               <span className="text-[10px] text-gray-500 group-hover:text-gray-300">Dev by Radoslav Mitrashkov</span>
             </a>
-          </div>
       
         <div className="mt-20 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500 uppercase tracking-widest font-bold">
           <p>&copy; {new Date().getFullYear()} Total Services Bulgaria EOOD.</p>
