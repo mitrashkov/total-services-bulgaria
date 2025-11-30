@@ -69,6 +69,16 @@ const Footer: React.FC = () => {
 
         </div>
 
+                    <a 
+              href="mailto:contact.mitrashkov@gmail.com?subject=Garant-90%20Website%20Inquiry"
+              className="group flex items-center gap-2 px-3 py-1 rounded-sm border border-white/5 bg-white/5 hover:border-garant-accent/30 hover:bg-white/10 transition-all duration-300"
+              title="Свържете се с разработчика"
+            >
+              <span className="w-1.5 h-1.5 rounded-full bg-gray-700 group-hover:bg-garant-accent transition-colors"></span>
+              <span className="text-[10px] text-gray-500 group-hover:text-gray-300">Dev by Radoslav Mitrashkov</span>
+            </a>
+          </div>
+      
         <div className="mt-20 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500 uppercase tracking-widest font-bold">
           <p>&copy; {new Date().getFullYear()} Total Services Bulgaria EOOD.</p>
           <div className="flex gap-8 mt-4 md:mt-0">
